@@ -1,0 +1,76 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .main_section .header_section .header_left {
+        flex-direction: column;
+    }
+
+    .main_section .header_section .header_left .user_nametext {
+        padding: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .professionsummery {
+        padding-top: 20px;
+    }
+
+    .career_timeline .caree_timelicard {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .caree_timedetail {
+        padding-top: 12px
+    }
+
+    .workexper_card .workexerdesti {
+        line-height: 30px;
+    }
+
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
+    .main_section .header_section .header_left {
+        flex-direction: column;
+    }
+
+    .main_section .header_section .header_left .user_nametext {
+        padding: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .professionsummery {
+        padding-top: 20px;
+    }
+
+    .caree_timelicard .career_timshap .career_timduration::after {
+        left: -138px;
+        width: 94%;
+    }
+
+    .career_timeline .caree_timelicard {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .caree_timedetail {
+        padding-top: 12px
+    }
+
+    .workexper_card .workexerdesti {
+        line-height: 30px;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 992px) {
+    .career_timeline .caree_timelicard {
+        flex-direction: column;
+        padding-left: 90px;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
+
+
+
+@media only screen and (min-width : 1025px) {}
